@@ -1,0 +1,112 @@
+{
+  "contractName": "Fallback",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/Ques1.sol\":\"Fallback\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/Ques1.sol\":{\"keccak256\":\"0x0410036265302edd8c9cfc8bd0fb7e4900f5a4dc611d82152cf86e8c6ded5327\",\"urls\":[\"bzz-raw://809d7846043d51a29400ad9264405382ab74f2579e97a502dae3bacd40e654a0\",\"dweb:/ipfs/QmVeZRaGv1Fdxg2Bh2sDmCorjmLVnphQ8UK6qfGgSRDgSR\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a9de202b05ff84c92a83aa36261f8040d2b7a7f56f3e9500354dbf1221d7932f64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220a9de202b05ff84c92a83aa36261f8040d2b7a7f56f3e9500354dbf1221d7932f64736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "53:54:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "53:54:1:-:0;;;;;",
+  "source": "//SPDX-License-Identifier\n\npragma solidity ^0.8.13;\n\ncontract Fallback{\n    address payable [] customers;\n}",
+  "sourcePath": "/Users/sujay/Desktop/Sujai @    Developer/Web Development/Blockchain Development/Digital_Assignments/Lab-Assignment-3/src/contracts/Ques1.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/Ques1.sol",
+    "exportedSymbols": {
+      "Fallback": [
+        65
+      ]
+    },
+    "id": 66,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 61,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "27:24:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Fallback",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 65,
+        "linearizedBaseContracts": [
+          65
+        ],
+        "name": "Fallback",
+        "nameLocation": "62:8:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 64,
+            "mutability": "mutable",
+            "name": "customers",
+            "nameLocation": "95:9:1",
+            "nodeType": "VariableDeclaration",
+            "scope": 65,
+            "src": "76:28:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_address_payable_$dyn_storage",
+              "typeString": "address payable[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 62,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "76:15:1",
+                "stateMutability": "payable",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address_payable",
+                  "typeString": "address payable"
+                }
+              },
+              "id": 63,
+              "nodeType": "ArrayTypeName",
+              "src": "76:18:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_address_payable_$dyn_storage_ptr",
+                "typeString": "address payable[]"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 66,
+        "src": "53:54:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "27:80:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.9",
+  "updatedAt": "2022-09-13T15:44:09.787Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
